@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkblue;
+    color: darkorange;
+}
+nav {
+    display: flex;
+    padding-left: 20px;
+}
+nav h1{
+    padding-left: 10px;
+}
+nav h4 {
+    display: inline-block;
+    width: 30px;
+    padding-top: 3px;
+    padding-right: 3px;
+    background-image: url("images/Alaska7.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+nav ul {
+    padding-top: 10px;
+}
+nav ul li{
+    display: inline-block;
+    margin:auto;
+    width: 300px;
+    text-align: center;
+}
+nav ul li a {
+    color:darkorange;
+}
+section{
+    display: flex;
+    background: white;
+    color: initial;
+    padding: 20px 0px;
+}
+section div{
+    padding: 20px;
+    margin:auto;
+    text-align: center;
+    flex-direction: row;
+}
+section div p{
+    background: red;
+    display: inline-block;
+    width: 400px;
+}
+
+#top {
+    background: rgb(40, 22, 151);
+}
+footer{
+    background: black;
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
